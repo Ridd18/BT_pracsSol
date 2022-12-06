@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "n",
+						"type": "int256"
+					}
+				],
+				"name": "isPrime",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac6d.sol": "PrimeOrNot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac6d.sol": {
+			"keccak256": "0x3df13c3804a5732432bf64a2c7b69292037a94dabd223f6654b3cf6fd389043d",
+			"urls": [
+				"bzz-raw://678337ea0b495c6bc5ba7d094db238a6b729e77c3c55d1822d9cea0aaf17ad5e",
+				"dweb:/ipfs/QmcyKUzRonFsaaVBCVV9H8cA4ntxdfcLZM6tJ9cjBerhSz"
+			]
+		}
+	},
+	"version": 1
+}

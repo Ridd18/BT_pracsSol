@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "id",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "addDetails",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "id",
+						"type": "int256"
+					}
+				],
+				"name": "getDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "id",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "updateDetails",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac7a.sol": "Mapping"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac7a.sol": {
+			"keccak256": "0x06b96cda7c945792ca81a2978eb278c578a8f0b8be13536de151f339016f45e3",
+			"urls": [
+				"bzz-raw://ec43e76347b47620897eb862b8730428e872e8bfd3ef5a8edd85d7ea846950c4",
+				"dweb:/ipfs/QmfXUByvKSbUERAtyXQQ3VvDbqqztC8fnXyqsqR4smLda4"
+			]
+		}
+	},
+	"version": 1
+}
